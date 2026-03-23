@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptive-sghmc-repo"
+version = "0.1.0"
+description = "Practical epsilon-form adaptive SGHMC experiments with toy and Yacht examples"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "matplotlib>=3.8",
+    "torch>=2.0",
+    "arviz>=0.16",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["adaptive_sghmc*"]

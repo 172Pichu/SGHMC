@@ -1,0 +1,5 @@
+No license file was selected automatically.
+
+Before publishing this repository publicly, choose an explicit project license
+and verify the upstream license terms of any third-party code included under
+`adaptive_sghmc/third_party/`.
